@@ -1,0 +1,58 @@
+/*  HEADER FOR CONTENT*/
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+h2 a {
+    color:#F5EB90;
+}
+
+.nav-links a {
+    color: #F5EB90;
+}
+
+hr {
+    background-color: #F5EB90;
+}
+
+/*  MAIN CSS   */
+main {
+    position: relative;
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    min-height: 70vh;
+}
+
+h1{
+    justify-self: right;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.text-container {
+    display: grid;
+    width: 500px;
+    margin-left: 100px;
+    text-align: right;
+}
+
+.img-container {
+    background: #F5EB90;
+    width: 40vw;
+    height: 50vh;
+    z-index: 0;
+}
+
+.img-container img {
+    object-fit: contain;
+    height: 80vh;
+    z-index: 1;
+    overflow:hidden;
+    
+}
+
+
