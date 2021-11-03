@@ -16,7 +16,7 @@ hr {
     background-color: #F5EB90;
 }
 
-/*  MAIN CSS*/
+/*  CONTACT CSS*/
 main {
     position: relative;
     width: 80vw;
@@ -36,4 +36,29 @@ footer {
 
 .info {
     color: white;
+    width: 400px;
 }
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        float: none;
+        margin-left: 10vw;
+        font-size: 150px;
+    }
+
+    p {
+        color: white;
+        
+    }
+    .info {
+        font-size: 40px;
+        margin-top: 50px;
+        width: 100%;
+        padding: 20px;
+        
+    }
+
+    
+}
+
+/*  about css   s*/

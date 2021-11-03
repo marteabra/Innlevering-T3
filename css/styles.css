@@ -1,0 +1,17 @@
+/*HEADER FRONTPAGE*/
+#front-page body {
+    background-color: #F5EB90;
+    color: black;
+}
+
+#front-page h2 a {
+    color:rgba(0, 0, 0, 0.8);
+}
+
+#front-page .nav-links a {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#front-page hr {
+    background-color: rgba(0, 0, 0, 0.8);
+}
